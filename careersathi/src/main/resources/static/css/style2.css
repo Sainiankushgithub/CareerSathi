@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Merriweather", serif;
+  font-weight: 400; /* Change weight as needed (300, 400, 700, etc.) */
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+p {
+  color: white;
+}
+.navbar-black {
+  background-color: #000;
+}
+
+
+/* Signup page CSS  */
+.signup-section {
+  min-height: 100vh;
+  background: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(13, 13, 43, 1) 35%,
+    rgba(168, 168, 160, 1) 100%
+  );
+  display: flex;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+.sign-border {
+  border-radius: 20px;
+}
+span .sign-border:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+/*
+Sign page css code
+
+*/
+
+.sign-in{
+  background-color: black;
+}
+.bg-color-col1{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.bg-color-col2{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.brand-main {
+  color: #ffffff !important;
+}
+
+.brand-accent {
+  color: #ffc107 !important;
+}
+
+
+.custom-input{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  /* width: 100%; */
+  /* text-align: center; */
+}
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.custom-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.custom-input-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5px 0; */
+  /* border-bottom: 2px solid white; */
+}
+.custom-hr-tag{
+  border-bottom: 2px solid white;
+  padding: 5px;
+  width: 350px;
+  margin:0 auto;
+}
+
+.custom-input, 
+.custom-input select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  appearance: none; /* optional: for clean dropdown */
+}
+
+.custom-bt-tag{
+  border-bottom: 1px solid white;
+  margin-top: 15px;
+  width: 100%;
+}
+.signup-btn{
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.signup-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+
