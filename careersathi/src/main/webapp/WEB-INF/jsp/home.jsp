@@ -205,7 +205,7 @@
 								src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400"
 								alt="Student 5" class="student-avatar" />
 							<div class="student-info">
-								<h5 class="student-name">Aragjit</h5>
+								<h5 class="student-name">Arghajit Acharjee</h5>
 								<p class="student-title">Career Counseling Success</p>
 							</div>
 						</div>
