@@ -4,7 +4,7 @@ CareerSathi is a career consultancy web application built with **Spring Boot** a
 
 ## Features
 
-- User registration as a **Consultee** or **Consultor**
+- User registration as a **Consultee** or **Consultant**
 - User login and profile management
 - Book a consultation session
 - Meeting room for consultant–consultee communication
